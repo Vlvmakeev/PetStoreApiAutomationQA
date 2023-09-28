@@ -6,6 +6,7 @@ import petStore.api.Models.petinstoremodels.TagForRoot;
 import java.util.ArrayList;
 
 public class PetInStoreRoot {
+    // / Класс объекта тела запроса к серверу по методам POST /pet, GET /pet/{petId}, PUT /pet
     public int id;
     public CategoryForRoot category;
     public String name;

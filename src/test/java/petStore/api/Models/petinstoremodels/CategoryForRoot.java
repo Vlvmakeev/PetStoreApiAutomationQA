@@ -1,6 +1,7 @@
 package petStore.api.Models.petinstoremodels;
 
 public class CategoryForRoot {
+    // POJO-класс для поля category класса PetInStoreRoot
     public int id;
     public String name;
 

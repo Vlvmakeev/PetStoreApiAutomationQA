@@ -1,6 +1,7 @@
 package petStore.api.Models.petinstoremodels;
 
 public class TagForRoot {
+    // POJO-класс для поля tags класса PetInStoreRoot
     public int id;
     public String name;
 

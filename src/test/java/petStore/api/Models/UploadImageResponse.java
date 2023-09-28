@@ -1,7 +1,7 @@
 package petStore.api.Models;
 
 public class UploadImageResponse {
-
+    // Класс объекта тела ответа от сервера по запросу POST /pet/{petId}/uploadImage
     public int code;
     public String type;
     public String message;

@@ -84,7 +84,7 @@ public class NegativeTest {
     @Epic(value = "Негативные тесты")
     @Story(value = "Добавление нового изображения для добавленного объекта питомца без указания формата содержимого")
     @Test (dependsOnMethods = {"findFreePetId"})
-    @Description(value = "Тест проверяет работу метода POST /pet/{petId}/uploadImage без указания формата содержимого запроса и ожиданием 410-го статус-кода")
+    @Description(value = "Тест проверяет работу метода POST /pet/{petId}/uploadImage без указания формата содержимого запроса и ожиданием 415-го статус-кода")
     public void uploadImageForPetWithoutMultiparts() {
         UploadImageResponse response = given()
                 .header("Content-Type", "multipart/form-data")

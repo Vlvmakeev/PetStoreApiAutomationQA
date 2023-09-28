@@ -1,7 +1,7 @@
 package petStore.api.Models;
 
 public class MessagePetResponse {
-
+    // Класс объекта тела ответа от сервера по запросам POST pet/{petId}/uploadImage, GET/pet/{petId} при 404-м статус-коде, DELETE/pet/{petId}
     public int code;
     public String type;
     public String message;
