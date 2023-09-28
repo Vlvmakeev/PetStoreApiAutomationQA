@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="110" passed="107">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="63481" started-at="2023-04-06T18:02:02 GMT+07:00" finished-at="2023-04-06T18:03:06 GMT+07:00">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="63481" started-at="2023-04-06T18:02:02 GMT+07:00" finished-at="2023-04-06T18:03:06 GMT+07:00">
+      <class name="api.hashtag.HashTagTest">
+        <test-method status="PASS" signature="checkHashTags()[pri:0, instance:api.hashtag.HashTagTest@2ad3a1bb]" name="checkHashTags" duration-ms="893" started-at="2023-04-06T18:02:30 GMT+07:00" finished-at="2023-04-06T18:02:31 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHashTags -->
+      </class> <!-- api.hashtag.HashTagTest -->
+      <class name="api.mediacentersgroup.MediaCenterGroupsTest">
+        <test-method status="PASS" signature="checkMediaCenterGroups()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="checkMediaCenterGroups" duration-ms="381" started-at="2023-04-06T18:02:40 GMT+07:00" finished-at="2023-04-06T18:02:41 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMediaCenterGroups -->
+        <test-method status="PASS" signature="createMediaCenterGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="createMediaCenterGroup" duration-ms="232" started-at="2023-04-06T18:02:41 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.checkMediaCenterGroups" finished-at="2023-04-06T18:02:41 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMediaCenterGroup -->
+        <test-method status="PASS" signature="errorCreateMediaCenterGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="errorCreateMediaCenterGroup" duration-ms="216" started-at="2023-04-06T18:02:41 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.createMediaCenterGroup" finished-at="2023-04-06T18:02:41 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorCreateMediaCenterGroup -->
+        <test-method status="PASS" signature="createMobileMCForAdd()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="createMobileMCForAdd" duration-ms="589" started-at="2023-04-06T18:02:41 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.errorCreateMediaCenterGroup" finished-at="2023-04-06T18:02:42 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMobileMCForAdd -->
+        <test-method status="PASS" signature="addMediacomplexToGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="addMediacomplexToGroup" duration-ms="308" started-at="2023-04-06T18:02:42 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.createMobileMCForAdd" finished-at="2023-04-06T18:02:42 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMediacomplexToGroup -->
+        <test-method status="PASS" signature="findMediacomplexAfterAddToGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="findMediacomplexAfterAddToGroup" duration-ms="328" started-at="2023-04-06T18:02:42 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.addMediacomplexToGroup" finished-at="2023-04-06T18:02:42 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMediacomplexAfterAddToGroup -->
+        <test-method status="PASS" signature="deleteMediacomplexFromGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="deleteMediacomplexFromGroup" duration-ms="249" started-at="2023-04-06T18:02:42 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.findMediacomplexAfterAddToGroup" finished-at="2023-04-06T18:02:43 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMediacomplexFromGroup -->
+        <test-method status="PASS" signature="findMediacomplexAfterDeleteFromGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="findMediacomplexAfterDeleteFromGroup" duration-ms="354" started-at="2023-04-06T18:02:43 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.deleteMediacomplexFromGroup" finished-at="2023-04-06T18:02:43 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMediacomplexAfterDeleteFromGroup -->
+        <test-method status="PASS" signature="updateMediaCenterGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="updateMediaCenterGroup" duration-ms="267" started-at="2023-04-06T18:02:43 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.findMediacomplexAfterDeleteFromGroup" finished-at="2023-04-06T18:02:43 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMediaCenterGroup -->
+        <test-method status="PASS" signature="deleteMediacenterGroup()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="deleteMediacenterGroup" duration-ms="230" started-at="2023-04-06T18:02:43 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.updateMediaCenterGroup" finished-at="2023-04-06T18:02:43 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMediacenterGroup -->
+        <test-method status="PASS" signature="testDeleteMediacomplex()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="testDeleteMediacomplex" duration-ms="312" started-at="2023-04-06T18:02:43 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.deleteMediacenterGroup" finished-at="2023-04-06T18:02:44 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMediacomplex -->
+        <test-method status="PASS" signature="testFindMediacomplexAfterDelete()[pri:0, instance:api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a]" name="testFindMediacomplexAfterDelete" duration-ms="234" started-at="2023-04-06T18:02:44 GMT+07:00" depends-on-methods="api.mediacentersgroup.MediaCenterGroupsTest.testDeleteMediacomplex" finished-at="2023-04-06T18:02:44 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMediacomplexAfterDelete -->
+      </class> <!-- api.mediacentersgroup.MediaCenterGroupsTest -->
+      <class name="api.mediaplangroups.MediaplanGroupTest">
+        <test-method status="PASS" signature="checkGroundMediaplanGroup()[pri:0, instance:api.mediaplangroups.MediaplanGroupTest@2555fff0]" name="checkGroundMediaplanGroup" duration-ms="983" started-at="2023-04-06T18:02:54 GMT+07:00" finished-at="2023-04-06T18:02:55 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGroundMediaplanGroup -->
+        <test-method status="PASS" signature="createGroundMediaplanGroup()[pri:0, instance:api.mediaplangroups.MediaplanGroupTest@2555fff0]" name="createGroundMediaplanGroup" duration-ms="269" started-at="2023-04-06T18:02:55 GMT+07:00" depends-on-methods="api.mediaplangroups.MediaplanGroupTest.checkGroundMediaplanGroup" finished-at="2023-04-06T18:02:55 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGroundMediaplanGroup -->
+        <test-method status="PASS" signature="editGroundMediaplanGroup()[pri:0, instance:api.mediaplangroups.MediaplanGroupTest@2555fff0]" name="editGroundMediaplanGroup" duration-ms="241" started-at="2023-04-06T18:02:55 GMT+07:00" depends-on-methods="api.mediaplangroups.MediaplanGroupTest.createGroundMediaplanGroup" finished-at="2023-04-06T18:02:56 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editGroundMediaplanGroup -->
+        <test-method status="PASS" signature="deleteMediaplanGroup()[pri:0, instance:api.mediaplangroups.MediaplanGroupTest@2555fff0]" name="deleteMediaplanGroup" duration-ms="285" started-at="2023-04-06T18:02:56 GMT+07:00" depends-on-methods="api.mediaplangroups.MediaplanGroupTest.editGroundMediaplanGroup" finished-at="2023-04-06T18:02:56 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMediaplanGroup -->
+      </class> <!-- api.mediaplangroups.MediaplanGroupTest -->
+      <class name="api.transport.TransportTest">
+        <test-method status="PASS" signature="checkTransportAttribute()[pri:0, instance:api.transport.TransportTest@70d2e40b]" name="checkTransportAttribute" duration-ms="201" started-at="2023-04-06T18:02:56 GMT+07:00" finished-at="2023-04-06T18:02:56 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransportAttribute -->
+      </class> <!-- api.transport.TransportTest -->
+      <class name="api.logs.LogsTest">
+        <test-method status="PASS" signature="userLogsList()[pri:0, instance:api.logs.LogsTest@6bc28a83]" name="userLogsList" duration-ms="515" started-at="2023-04-06T18:02:31 GMT+07:00" finished-at="2023-04-06T18:02:32 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogsList -->
+      </class> <!-- api.logs.LogsTest -->
+      <class name="api.geozone.GeoZonesTest">
+        <test-method status="PASS" signature="getGeoZones()[pri:0, instance:api.geozone.GeoZonesTest@4fbdc0f0]" name="getGeoZones" duration-ms="448" started-at="2023-04-06T18:02:29 GMT+07:00" finished-at="2023-04-06T18:02:29 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGeoZones -->
+        <test-method status="PASS" signature="getGeoZonesById()[pri:0, instance:api.geozone.GeoZonesTest@4fbdc0f0]" name="getGeoZonesById" duration-ms="1184" started-at="2023-04-06T18:02:29 GMT+07:00" finished-at="2023-04-06T18:02:30 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGeoZonesById -->
+      </class> <!-- api.geozone.GeoZonesTest -->
+      <class name="api.mediacenters.MobileMediacentersTest">
+        <test-method status="PASS" signature="checkMonitorResolution()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="checkMonitorResolution" duration-ms="277" started-at="2023-04-06T18:02:35 GMT+07:00" finished-at="2023-04-06T18:02:36 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMonitorResolution -->
+        <test-method status="PASS" signature="mediaComplexList()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="mediaComplexList" duration-ms="3087" started-at="2023-04-06T18:02:36 GMT+07:00" finished-at="2023-04-06T18:02:39 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediaComplexList -->
+        <test-method status="PASS" signature="testCreateMobileMC()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="testCreateMobileMC" duration-ms="290" started-at="2023-04-06T18:02:39 GMT+07:00" finished-at="2023-04-06T18:02:39 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMobileMC -->
+        <test-method status="PASS" signature="findCreateMobileMediacomplex()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="findCreateMobileMediacomplex" duration-ms="303" started-at="2023-04-06T18:02:39 GMT+07:00" depends-on-methods="api.mediacenters.MobileMediacentersTest.testCreateMobileMC" finished-at="2023-04-06T18:02:39 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCreateMobileMediacomplex -->
+        <test-method status="PASS" signature="testEditMobileMC()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="testEditMobileMC" duration-ms="302" started-at="2023-04-06T18:02:39 GMT+07:00" depends-on-methods="api.mediacenters.MobileMediacentersTest.findCreateMobileMediacomplex" finished-at="2023-04-06T18:02:40 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditMobileMC -->
+        <test-method status="PASS" signature="testFindMediacomplexAfterEdit()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="testFindMediacomplexAfterEdit" duration-ms="226" started-at="2023-04-06T18:02:40 GMT+07:00" depends-on-methods="api.mediacenters.MobileMediacentersTest.testEditMobileMC" finished-at="2023-04-06T18:02:40 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMediacomplexAfterEdit -->
+        <test-method status="PASS" signature="testDeleteMediacomplex()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="testDeleteMediacomplex" duration-ms="228" started-at="2023-04-06T18:02:40 GMT+07:00" depends-on-methods="api.mediacenters.MobileMediacentersTest.testFindMediacomplexAfterEdit" finished-at="2023-04-06T18:02:40 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMediacomplex -->
+        <test-method status="PASS" signature="testFindMediacomplexAfterDelete()[pri:0, instance:api.mediacenters.MobileMediacentersTest@24be2d9c]" name="testFindMediacomplexAfterDelete" duration-ms="255" started-at="2023-04-06T18:02:40 GMT+07:00" depends-on-methods="api.mediacenters.MobileMediacentersTest.testDeleteMediacomplex" finished-at="2023-04-06T18:02:40 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMediacomplexAfterDelete -->
+      </class> <!-- api.mediacenters.MobileMediacentersTest -->
+      <class name="api.authorisation.AuthTest">
+        <test-method status="PASS" signature="authAdministrator()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authAdministrator" duration-ms="12161" started-at="2023-04-06T18:02:03 GMT+07:00" finished-at="2023-04-06T18:02:15 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authAdministrator -->
+        <test-method status="PASS" signature="authBlockedUser()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authBlockedUser" duration-ms="391" started-at="2023-04-06T18:02:15 GMT+07:00" finished-at="2023-04-06T18:02:15 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authBlockedUser -->
+        <test-method status="PASS" signature="authChiefEditor()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authChiefEditor" duration-ms="479" started-at="2023-04-06T18:02:15 GMT+07:00" finished-at="2023-04-06T18:02:16 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authChiefEditor -->
+        <test-method status="PASS" signature="authEditor()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authEditor" duration-ms="452" started-at="2023-04-06T18:02:16 GMT+07:00" finished-at="2023-04-06T18:02:16 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authEditor -->
+        <test-method status="PASS" signature="authModerator1()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authModerator1" duration-ms="488" started-at="2023-04-06T18:02:16 GMT+07:00" finished-at="2023-04-06T18:02:17 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authModerator1 -->
+        <test-method status="PASS" signature="authModerator2()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authModerator2" duration-ms="448" started-at="2023-04-06T18:02:17 GMT+07:00" finished-at="2023-04-06T18:02:17 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authModerator2 -->
+        <test-method status="PASS" signature="authWrongLogin()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authWrongLogin" duration-ms="336" started-at="2023-04-06T18:02:17 GMT+07:00" finished-at="2023-04-06T18:02:17 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authWrongLogin -->
+        <test-method status="PASS" signature="authWrongPassword()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="authWrongPassword" duration-ms="373" started-at="2023-04-06T18:02:17 GMT+07:00" finished-at="2023-04-06T18:02:18 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authWrongPassword -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:api.authorisation.AuthTest@41200e0c]" name="logout" duration-ms="2614" started-at="2023-04-06T18:02:18 GMT+07:00" finished-at="2023-04-06T18:02:20 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- api.authorisation.AuthTest -->
+      <class name="api.users.TestUsers">
+        <test-method status="PASS" signature="authAdministrator()[pri:0, instance:api.users.TestUsers@7a0e1b5e]" name="authAdministrator" duration-ms="298" started-at="2023-04-06T18:02:58 GMT+07:00" finished-at="2023-04-06T18:02:58 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authAdministrator -->
+        <test-method status="PASS" signature="getUserList()[pri:0, instance:api.users.TestUsers@7a0e1b5e]" name="getUserList" duration-ms="391" started-at="2023-04-06T18:02:58 GMT+07:00" depends-on-methods="api.users.TestUsers.authAdministrator" finished-at="2023-04-06T18:02:59 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+      </class> <!-- api.users.TestUsers -->
+      <class name="api.mediacenters.GroundMediacentersTest">
+        <test-method status="PASS" signature="testCreateGroundMC()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testCreateGroundMC" duration-ms="398" started-at="2023-04-06T18:02:32 GMT+07:00" finished-at="2023-04-06T18:02:32 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateGroundMC -->
+        <test-method status="PASS" signature="testFindCreatedGroundMC()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testFindCreatedGroundMC" duration-ms="346" started-at="2023-04-06T18:02:32 GMT+07:00" depends-on-methods="api.mediacenters.GroundMediacentersTest.testCreateGroundMC" finished-at="2023-04-06T18:02:32 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCreatedGroundMC -->
+        <test-method status="PASS" signature="testEditGroundMC()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testEditGroundMC" duration-ms="264" started-at="2023-04-06T18:02:32 GMT+07:00" depends-on-methods="api.mediacenters.GroundMediacentersTest.testFindCreatedGroundMC" finished-at="2023-04-06T18:02:33 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditGroundMC -->
+        <test-method status="PASS" signature="testFindEditedGroundMC()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testFindEditedGroundMC" duration-ms="312" started-at="2023-04-06T18:02:33 GMT+07:00" depends-on-methods="api.mediacenters.GroundMediacentersTest.testEditGroundMC" finished-at="2023-04-06T18:02:33 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindEditedGroundMC -->
+        <test-method status="PASS" signature="testDeleteGroundMediacomplex()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testDeleteGroundMediacomplex" duration-ms="289" started-at="2023-04-06T18:02:33 GMT+07:00" depends-on-methods="api.mediacenters.GroundMediacentersTest.testFindEditedGroundMC" finished-at="2023-04-06T18:02:33 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteGroundMediacomplex -->
+        <test-method status="PASS" signature="testFindGroundMCAfterDelete()[pri:0, instance:api.mediacenters.GroundMediacentersTest@324c64cd]" name="testFindGroundMCAfterDelete" duration-ms="274" started-at="2023-04-06T18:02:33 GMT+07:00" depends-on-methods="api.mediacenters.GroundMediacentersTest.testDeleteGroundMediacomplex" finished-at="2023-04-06T18:02:34 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindGroundMCAfterDelete -->
+      </class> <!-- api.mediacenters.GroundMediacentersTest -->
+      <class name="api.mediaplanandplaylist.MediaplanAndPlaylistTest">
+        <test-method status="PASS" signature="createMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="createMediaplan" duration-ms="340" started-at="2023-04-06T18:02:44 GMT+07:00" finished-at="2023-04-06T18:02:44 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMediaplan -->
+        <test-method status="PASS" signature="findCreatedMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="findCreatedMediaplan" duration-ms="349" started-at="2023-04-06T18:02:44 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.createMediaplan" finished-at="2023-04-06T18:02:45 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCreatedMediaplan -->
+        <test-method status="PASS" signature="editMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="editMediaplan" duration-ms="646" started-at="2023-04-06T18:02:45 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.findCreatedMediaplan" finished-at="2023-04-06T18:02:45 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editMediaplan -->
+        <test-method status="PASS" signature="findEditedMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="findEditedMediaplan" duration-ms="304" started-at="2023-04-06T18:02:45 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.editMediaplan" finished-at="2023-04-06T18:02:46 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEditedMediaplan -->
+        <test-method status="PASS" signature="createPlaylist()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="createPlaylist" duration-ms="270" started-at="2023-04-06T18:02:46 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.findEditedMediaplan" finished-at="2023-04-06T18:02:46 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylist -->
+        <test-method status="PASS" signature="playlistSetActive()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="playlistSetActive" duration-ms="511" started-at="2023-04-06T18:02:46 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.createPlaylist" finished-at="2023-04-06T18:02:46 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistSetActive -->
+        <test-method status="PASS" signature="setActivePlaylist()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="setActivePlaylist" duration-ms="258" started-at="2023-04-06T18:02:46 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.playlistSetActive" finished-at="2023-04-06T18:02:47 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setActivePlaylist -->
+        <test-method status="PASS" signature="getPlaylist()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="getPlaylist" duration-ms="960" started-at="2023-04-06T18:02:47 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.setActivePlaylist" finished-at="2023-04-06T18:02:48 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaylist -->
+        <test-method status="PASS" signature="createStreamContent()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="createStreamContent" duration-ms="314" started-at="2023-04-06T18:02:48 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.getPlaylist" finished-at="2023-04-06T18:02:48 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStreamContent -->
+        <test-method status="PASS" signature="checkCreatedContentStream()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="checkCreatedContentStream" duration-ms="363" started-at="2023-04-06T18:02:48 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.createStreamContent" finished-at="2023-04-06T18:02:48 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedContentStream -->
+        <test-method status="PASS" signature="moderationApproveEditor()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="moderationApproveEditor" duration-ms="347" started-at="2023-04-06T18:02:48 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkCreatedContentStream" finished-at="2023-04-06T18:02:49 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveEditor -->
+        <test-method status="PASS" signature="moderationApproveModerator1()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="moderationApproveModerator1" duration-ms="956" started-at="2023-04-06T18:02:49 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveEditor" finished-at="2023-04-06T18:02:50 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveModerator1 -->
+        <test-method status="PASS" signature="moderationApproveModerator2()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="moderationApproveModerator2" duration-ms="350" started-at="2023-04-06T18:02:50 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveModerator1" finished-at="2023-04-06T18:02:50 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveModerator2 -->
+        <test-method status="PASS" signature="moderationApproveChiefEditor()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="moderationApproveChiefEditor" duration-ms="384" started-at="2023-04-06T18:02:50 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveModerator2" finished-at="2023-04-06T18:02:50 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveChiefEditor -->
+        <test-method status="PASS" signature="editPlaylistByaddContentOnPlaylist()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="editPlaylistByaddContentOnPlaylist" duration-ms="638" started-at="2023-04-06T18:02:50 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveChiefEditor" finished-at="2023-04-06T18:02:51 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPlaylistByaddContentOnPlaylist -->
+        <test-method status="PASS" signature="playlistSetActiveAfterEdit()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="playlistSetActiveAfterEdit" duration-ms="421" started-at="2023-04-06T18:02:51 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.editPlaylistByaddContentOnPlaylist" finished-at="2023-04-06T18:02:51 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistSetActiveAfterEdit -->
+        <test-method status="PASS" signature="setActivePlaylistAfterEdit()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="setActivePlaylistAfterEdit" duration-ms="319" started-at="2023-04-06T18:02:51 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.playlistSetActiveAfterEdit" finished-at="2023-04-06T18:02:52 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setActivePlaylistAfterEdit -->
+        <test-method status="PASS" signature="getPlaylistAfterEdit()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="getPlaylistAfterEdit" duration-ms="542" started-at="2023-04-06T18:02:52 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.setActivePlaylistAfterEdit" finished-at="2023-04-06T18:02:52 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaylistAfterEdit -->
+        <test-method status="PASS" signature="checkMediaplanAfterEditPlaylist()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="checkMediaplanAfterEditPlaylist" duration-ms="498" started-at="2023-04-06T18:02:52 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.getPlaylistAfterEdit" finished-at="2023-04-06T18:02:53 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMediaplanAfterEditPlaylist -->
+        <test-method status="PASS" signature="clearMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="clearMediaplan" duration-ms="288" started-at="2023-04-06T18:02:53 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkMediaplanAfterEditPlaylist" finished-at="2023-04-06T18:02:53 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMediaplan -->
+        <test-method status="PASS" signature="checkMediaplanAfterClear()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="checkMediaplanAfterClear" duration-ms="245" started-at="2023-04-06T18:02:53 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.clearMediaplan" finished-at="2023-04-06T18:02:53 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMediaplanAfterClear -->
+        <test-method status="PASS" signature="deleteMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="deleteMediaplan" duration-ms="218" started-at="2023-04-06T18:02:53 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkMediaplanAfterClear" finished-at="2023-04-06T18:02:54 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMediaplan -->
+        <test-method status="PASS" signature="findDeletedMediaplan()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="findDeletedMediaplan" duration-ms="199" started-at="2023-04-06T18:02:54 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.deleteMediaplan" finished-at="2023-04-06T18:02:54 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findDeletedMediaplan -->
+        <test-method status="PASS" signature="moderationContentDecline()[pri:0, instance:api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1]" name="moderationContentDecline" duration-ms="246" started-at="2023-04-06T18:02:54 GMT+07:00" depends-on-methods="api.mediaplanandplaylist.MediaplanAndPlaylistTest.findDeletedMediaplan" finished-at="2023-04-06T18:02:54 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationContentDecline -->
+      </class> <!-- api.mediaplanandplaylist.MediaplanAndPlaylistTest -->
+      <class name="api.transportroutes.TransportRoutesTest">
+        <test-method status="PASS" signature="busTransportRoutes()[pri:0, instance:api.transportroutes.TransportRoutesTest@120f38e6]" name="busTransportRoutes" duration-ms="692" started-at="2023-04-06T18:02:56 GMT+07:00" finished-at="2023-04-06T18:02:57 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busTransportRoutes -->
+        <test-method status="PASS" signature="metroTransportRoutes()[pri:0, instance:api.transportroutes.TransportRoutesTest@120f38e6]" name="metroTransportRoutes" duration-ms="435" started-at="2023-04-06T18:02:57 GMT+07:00" finished-at="2023-04-06T18:02:57 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- metroTransportRoutes -->
+        <test-method status="PASS" signature="trammTransportRoutes()[pri:0, instance:api.transportroutes.TransportRoutesTest@120f38e6]" name="trammTransportRoutes" duration-ms="397" started-at="2023-04-06T18:02:57 GMT+07:00" finished-at="2023-04-06T18:02:58 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trammTransportRoutes -->
+        <test-method status="PASS" signature="trollTransportRoutes()[pri:0, instance:api.transportroutes.TransportRoutesTest@120f38e6]" name="trollTransportRoutes" duration-ms="288" started-at="2023-04-06T18:02:58 GMT+07:00" finished-at="2023-04-06T18:02:58 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trollTransportRoutes -->
+      </class> <!-- api.transportroutes.TransportRoutesTest -->
+      <class name="api.content2.ContentAndModerationTest">
+        <test-method status="PASS" signature="moderationTabsForString()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationTabsForString" duration-ms="424" started-at="2023-04-06T18:02:20 GMT+07:00" finished-at="2023-04-06T18:02:21 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationTabsForString -->
+        <test-method status="PASS" signature="createContentString()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="createContentString" duration-ms="480" started-at="2023-04-06T18:02:21 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationTabsForString" finished-at="2023-04-06T18:02:21 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContentString -->
+        <test-method status="PASS" signature="checkCreatedContentStringAfterCreate()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="checkCreatedContentStringAfterCreate" duration-ms="621" started-at="2023-04-06T18:02:21 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.createContentString" finished-at="2023-04-06T18:02:22 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedContentStringAfterCreate -->
+        <test-method status="PASS" signature="editContentString()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="editContentString" duration-ms="349" started-at="2023-04-06T18:02:22 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.checkCreatedContentStringAfterCreate" finished-at="2023-04-06T18:02:22 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContentString -->
+        <test-method status="PASS" signature="checkCreatedContentStringAfterEdit()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="checkCreatedContentStringAfterEdit" duration-ms="505" started-at="2023-04-06T18:02:22 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.editContentString" finished-at="2023-04-06T18:02:23 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedContentStringAfterEdit -->
+        <test-method status="PASS" signature="moderationApproveEditorAfterCreateString()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationApproveEditorAfterCreateString" duration-ms="331" started-at="2023-04-06T18:02:23 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.checkCreatedContentStringAfterEdit" finished-at="2023-04-06T18:02:23 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveEditorAfterCreateString -->
+        <test-method status="PASS" signature="moderationStringApproveModerator1()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStringApproveModerator1" duration-ms="270" started-at="2023-04-06T18:02:23 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationApproveEditorAfterCreateString" finished-at="2023-04-06T18:02:23 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStringApproveModerator1 -->
+        <test-method status="PASS" signature="moderationStringApproveModerator2()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStringApproveModerator2" duration-ms="262" started-at="2023-04-06T18:02:23 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStringApproveModerator1" finished-at="2023-04-06T18:02:24 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStringApproveModerator2 -->
+        <test-method status="PASS" signature="moderationStringApproveChiefEditor()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStringApproveChiefEditor" duration-ms="284" started-at="2023-04-06T18:02:24 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStringApproveModerator2" finished-at="2023-04-06T18:02:24 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStringApproveChiefEditor -->
+        <test-method status="PASS" signature="moderationStringDecline()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStringDecline" duration-ms="291" started-at="2023-04-06T18:02:24 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStringApproveChiefEditor" finished-at="2023-04-06T18:02:24 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStringDecline -->
+        <test-method status="PASS" signature="moderationTabsForVideoAndStream()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationTabsForVideoAndStream" duration-ms="268" started-at="2023-04-06T18:02:24 GMT+07:00" finished-at="2023-04-06T18:02:25 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationTabsForVideoAndStream -->
+        <test-method status="PASS" signature="createContentStream()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="createContentStream" duration-ms="441" started-at="2023-04-06T18:02:25 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationTabsForVideoAndStream" finished-at="2023-04-06T18:02:25 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContentStream -->
+        <test-method status="PASS" signature="checkCreatedContentStreamAfterCreate()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="checkCreatedContentStreamAfterCreate" duration-ms="610" started-at="2023-04-06T18:02:25 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.createContentStream" finished-at="2023-04-06T18:02:26 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedContentStreamAfterCreate -->
+        <test-method status="PASS" signature="editContentStream()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="editContentStream" duration-ms="356" started-at="2023-04-06T18:02:26 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.checkCreatedContentStreamAfterCreate" finished-at="2023-04-06T18:02:26 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContentStream -->
+        <test-method status="PASS" signature="checkCreatedContentStreamAfterEdit()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="checkCreatedContentStreamAfterEdit" duration-ms="558" started-at="2023-04-06T18:02:26 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.editContentStream" finished-at="2023-04-06T18:02:27 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedContentStreamAfterEdit -->
+        <test-method status="PASS" signature="moderationApproveEditorAfterCreateStream()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationApproveEditorAfterCreateStream" duration-ms="459" started-at="2023-04-06T18:02:27 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.checkCreatedContentStreamAfterEdit" finished-at="2023-04-06T18:02:27 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationApproveEditorAfterCreateStream -->
+        <test-method status="PASS" signature="moderationStreamApproveModerator1()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStreamApproveModerator1" duration-ms="421" started-at="2023-04-06T18:02:27 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationApproveEditorAfterCreateStream" finished-at="2023-04-06T18:02:27 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStreamApproveModerator1 -->
+        <test-method status="PASS" signature="moderationStreamApproveModerator2()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStreamApproveModerator2" duration-ms="373" started-at="2023-04-06T18:02:27 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStreamApproveModerator1" finished-at="2023-04-06T18:02:28 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStreamApproveModerator2 -->
+        <test-method status="PASS" signature="moderationStreamApproveChiefEditor()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStreamApproveChiefEditor" duration-ms="444" started-at="2023-04-06T18:02:28 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStreamApproveModerator2" finished-at="2023-04-06T18:02:28 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStreamApproveChiefEditor -->
+        <test-method status="PASS" signature="moderationStreamDecline()[pri:0, instance:api.content2.ContentAndModerationTest@40f33492]" name="moderationStreamDecline" duration-ms="291" started-at="2023-04-06T18:02:28 GMT+07:00" depends-on-methods="api.content2.ContentAndModerationTest.moderationStreamApproveChiefEditor" finished-at="2023-04-06T18:02:29 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moderationStreamDecline -->
+      </class> <!-- api.content2.ContentAndModerationTest -->
+      <class name="innerApiForSchedule.InnerApiForSchedulerTest">
+        <test-method status="PASS" signature="testGroundTransportStatistics()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testGroundTransportStatistics" duration-ms="1983" started-at="2023-04-06T18:02:59 GMT+07:00" finished-at="2023-04-06T18:03:01 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroundTransportStatistics -->
+        <test-method status="PASS" signature="testMetroStatistics()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testMetroStatistics" duration-ms="1107" started-at="2023-04-06T18:03:01 GMT+07:00" finished-at="2023-04-06T18:03:02 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMetroStatistics -->
+        <test-method status="PASS" signature="testSettingsData()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testSettingsData" duration-ms="2038" started-at="2023-04-06T18:03:02 GMT+07:00" finished-at="2023-04-06T18:03:04 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSettingsData -->
+        <test-method status="PASS" signature="testStationMonitors()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testStationMonitors" duration-ms="732" started-at="2023-04-06T18:03:04 GMT+07:00" finished-at="2023-04-06T18:03:04 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStationMonitors -->
+        <test-method status="PASS" signature="testStationaryMonitors()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testStationaryMonitors" duration-ms="208" started-at="2023-04-06T18:03:04 GMT+07:00" finished-at="2023-04-06T18:03:05 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStationaryMonitors -->
+        <test-method status="PASS" signature="testStatusStreamMM()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testStatusStreamMM" duration-ms="882" started-at="2023-04-06T18:03:05 GMT+07:00" finished-at="2023-04-06T18:03:05 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusStreamMM -->
+        <test-method status="PASS" signature="testTransportLocation()[pri:0, instance:innerApiForSchedule.InnerApiForSchedulerTest@702ed190]" name="testTransportLocation" duration-ms="235" started-at="2023-04-06T18:03:05 GMT+07:00" finished-at="2023-04-06T18:03:06 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransportLocation -->
+      </class> <!-- innerApiForSchedule.InnerApiForSchedulerTest -->
+      <class name="api.mediacenters.MetroMediacentersTest">
+        <test-method status="PASS" signature="testCreateMetroMC()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testCreateMetroMC" duration-ms="396" started-at="2023-04-06T18:02:34 GMT+07:00" finished-at="2023-04-06T18:02:34 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMetroMC -->
+        <test-method status="PASS" signature="testFindCreatedMetroMC()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testFindCreatedMetroMC" duration-ms="305" started-at="2023-04-06T18:02:34 GMT+07:00" depends-on-methods="api.mediacenters.MetroMediacentersTest.testCreateMetroMC" finished-at="2023-04-06T18:02:34 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCreatedMetroMC -->
+        <test-method status="PASS" signature="testEditMetroMC()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testEditMetroMC" duration-ms="276" started-at="2023-04-06T18:02:34 GMT+07:00" depends-on-methods="api.mediacenters.MetroMediacentersTest.testFindCreatedMetroMC" finished-at="2023-04-06T18:02:35 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditMetroMC -->
+        <test-method status="PASS" signature="testFindMetroMCAfterEdit()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testFindMetroMCAfterEdit" duration-ms="227" started-at="2023-04-06T18:02:35 GMT+07:00" depends-on-methods="api.mediacenters.MetroMediacentersTest.testEditMetroMC" finished-at="2023-04-06T18:02:35 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMetroMCAfterEdit -->
+        <test-method status="PASS" signature="testDeleteMetroMediacomplex()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testDeleteMetroMediacomplex" duration-ms="268" started-at="2023-04-06T18:02:35 GMT+07:00" depends-on-methods="api.mediacenters.MetroMediacentersTest.testFindMetroMCAfterEdit" finished-at="2023-04-06T18:02:35 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMetroMediacomplex -->
+        <test-method status="PASS" signature="testFindMetroMCAfterDelete()[pri:0, instance:api.mediacenters.MetroMediacentersTest@13579834]" name="testFindMetroMCAfterDelete" duration-ms="199" started-at="2023-04-06T18:02:35 GMT+07:00" depends-on-methods="api.mediacenters.MetroMediacentersTest.testDeleteMetroMediacomplex" finished-at="2023-04-06T18:02:35 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMetroMCAfterDelete -->
+      </class> <!-- api.mediacenters.MetroMediacentersTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

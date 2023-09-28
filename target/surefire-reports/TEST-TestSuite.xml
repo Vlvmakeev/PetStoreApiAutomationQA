@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.392" tests="107" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WorkInfomatix\Automation QA prodaction projects\ScheduleBackend(REST API)"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\WorkInfomatix\Automation QA prodaction projects\ScheduleBackend(REST API)"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vlvma\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\gradle-6.1.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\vlvma\AppData\Local\Microsoft\WindowsApps;C:\Users\vlvma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vlvma\AppData\Roaming\npm;C:\Users\vlvma\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.2\bin;;C:\Users\vlvma\AppData\Local\Android\Sdk\platform-tools;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\vlvma"/>
+    <property name="user.timezone" value="Asia/Tomsk"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="vlvma"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="authAdministrator" classname="api.authorisation.AuthTest" time="12.163"/>
+  <testcase name="authBlockedUser" classname="api.authorisation.AuthTest" time="0.391"/>
+  <testcase name="authChiefEditor" classname="api.authorisation.AuthTest" time="0.478"/>
+  <testcase name="authEditor" classname="api.authorisation.AuthTest" time="0.452"/>
+  <testcase name="authModerator1" classname="api.authorisation.AuthTest" time="0.488"/>
+  <testcase name="authModerator2" classname="api.authorisation.AuthTest" time="0.45"/>
+  <testcase name="authWrongLogin" classname="api.authorisation.AuthTest" time="0.335"/>
+  <testcase name="authWrongPassword" classname="api.authorisation.AuthTest" time="0.373"/>
+  <testcase name="logout" classname="api.authorisation.AuthTest" time="2.613"/>
+  <testcase name="moderationTabsForString" classname="api.content2.ContentAndModerationTest" time="0.425"/>
+  <testcase name="createContentString" classname="api.content2.ContentAndModerationTest" time="0.48"/>
+  <testcase name="checkCreatedContentStringAfterCreate" classname="api.content2.ContentAndModerationTest" time="0.621"/>
+  <testcase name="editContentString" classname="api.content2.ContentAndModerationTest" time="0.349"/>
+  <testcase name="checkCreatedContentStringAfterEdit" classname="api.content2.ContentAndModerationTest" time="0.504"/>
+  <testcase name="moderationApproveEditorAfterCreateString" classname="api.content2.ContentAndModerationTest" time="0.33"/>
+  <testcase name="moderationStringApproveModerator1" classname="api.content2.ContentAndModerationTest" time="0.27"/>
+  <testcase name="moderationStringApproveModerator2" classname="api.content2.ContentAndModerationTest" time="0.262"/>
+  <testcase name="moderationStringApproveChiefEditor" classname="api.content2.ContentAndModerationTest" time="0.284"/>
+  <testcase name="moderationStringDecline" classname="api.content2.ContentAndModerationTest" time="0.29"/>
+  <testcase name="moderationTabsForVideoAndStream" classname="api.content2.ContentAndModerationTest" time="0.269"/>
+  <testcase name="createContentStream" classname="api.content2.ContentAndModerationTest" time="0.442"/>
+  <testcase name="checkCreatedContentStreamAfterCreate" classname="api.content2.ContentAndModerationTest" time="0.61"/>
+  <testcase name="editContentStream" classname="api.content2.ContentAndModerationTest" time="0.357"/>
+  <testcase name="checkCreatedContentStreamAfterEdit" classname="api.content2.ContentAndModerationTest" time="0.558"/>
+  <testcase name="moderationApproveEditorAfterCreateStream" classname="api.content2.ContentAndModerationTest" time="0.46"/>
+  <testcase name="moderationStreamApproveModerator1" classname="api.content2.ContentAndModerationTest" time="0.421"/>
+  <testcase name="moderationStreamApproveModerator2" classname="api.content2.ContentAndModerationTest" time="0.373"/>
+  <testcase name="moderationStreamApproveChiefEditor" classname="api.content2.ContentAndModerationTest" time="0.444"/>
+  <testcase name="moderationStreamDecline" classname="api.content2.ContentAndModerationTest" time="0.291"/>
+  <testcase name="getGeoZones" classname="api.geozone.GeoZonesTest" time="0.448"/>
+  <testcase name="getGeoZonesById" classname="api.geozone.GeoZonesTest" time="1.622"/>
+  <testcase name="checkHashTags" classname="api.hashtag.HashTagTest" time="0.456"/>
+  <testcase name="userLogsList" classname="api.logs.LogsTest" time="0.6"/>
+  <testcase name="testCreateGroundMC" classname="api.mediacenters.GroundMediacentersTest" time="0.318"/>
+  <testcase name="testFindCreatedGroundMC" classname="api.mediacenters.GroundMediacentersTest" time="0.345"/>
+  <testcase name="testEditGroundMC" classname="api.mediacenters.GroundMediacentersTest" time="0.264"/>
+  <testcase name="testFindEditedGroundMC" classname="api.mediacenters.GroundMediacentersTest" time="0.311"/>
+  <testcase name="testDeleteGroundMediacomplex" classname="api.mediacenters.GroundMediacentersTest" time="0.291"/>
+  <testcase name="testFindGroundMCAfterDelete" classname="api.mediacenters.GroundMediacentersTest" time="0.274"/>
+  <testcase name="testCreateMetroMC" classname="api.mediacenters.MetroMediacentersTest" time="0.396"/>
+  <testcase name="testFindCreatedMetroMC" classname="api.mediacenters.MetroMediacentersTest" time="0.305"/>
+  <testcase name="testEditMetroMC" classname="api.mediacenters.MetroMediacentersTest" time="0.276"/>
+  <testcase name="testFindMetroMCAfterEdit" classname="api.mediacenters.MetroMediacentersTest" time="0.227"/>
+  <testcase name="testDeleteMetroMediacomplex" classname="api.mediacenters.MetroMediacentersTest" time="0.268"/>
+  <testcase name="testFindMetroMCAfterDelete" classname="api.mediacenters.MetroMediacentersTest" time="0.199"/>
+  <testcase name="checkMonitorResolution" classname="api.mediacenters.MobileMediacentersTest" time="0.277"/>
+  <testcase name="mediaComplexList" classname="api.mediacenters.MobileMediacentersTest" time="3.11"/>
+  <testcase name="testCreateMobileMC" classname="api.mediacenters.MobileMediacentersTest" time="0.27"/>
+  <testcase name="findCreateMobileMediacomplex" classname="api.mediacenters.MobileMediacentersTest" time="0.303"/>
+  <testcase name="testEditMobileMC" classname="api.mediacenters.MobileMediacentersTest" time="0.303"/>
+  <testcase name="testFindMediacomplexAfterEdit" classname="api.mediacenters.MobileMediacentersTest" time="0.226"/>
+  <testcase name="testDeleteMediacomplex" classname="api.mediacenters.MobileMediacentersTest" time="0.228"/>
+  <testcase name="testFindMediacomplexAfterDelete" classname="api.mediacenters.MobileMediacentersTest" time="0.255"/>
+  <testcase name="checkMediaCenterGroups" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.381"/>
+  <testcase name="createMediaCenterGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.233"/>
+  <testcase name="errorCreateMediaCenterGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.216"/>
+  <testcase name="createMobileMCForAdd" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.59"/>
+  <testcase name="addMediacomplexToGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.308"/>
+  <testcase name="findMediacomplexAfterAddToGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.329"/>
+  <testcase name="deleteMediacomplexFromGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.25"/>
+  <testcase name="findMediacomplexAfterDeleteFromGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.354"/>
+  <testcase name="updateMediaCenterGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.267"/>
+  <testcase name="deleteMediacenterGroup" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.232"/>
+  <testcase name="testDeleteMediacomplex" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.313"/>
+  <testcase name="testFindMediacomplexAfterDelete" classname="api.mediacentersgroup.MediaCenterGroupsTest" time="0.235"/>
+  <testcase name="createMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.34"/>
+  <testcase name="findCreatedMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.349"/>
+  <testcase name="editMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.645"/>
+  <testcase name="findEditedMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.305"/>
+  <testcase name="createPlaylist" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.271"/>
+  <testcase name="playlistSetActive" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.511"/>
+  <testcase name="setActivePlaylist" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.258"/>
+  <testcase name="getPlaylist" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.961"/>
+  <testcase name="createStreamContent" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.314"/>
+  <testcase name="checkCreatedContentStream" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.364"/>
+  <testcase name="moderationApproveEditor" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.347"/>
+  <testcase name="moderationApproveModerator1" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.955"/>
+  <testcase name="moderationApproveModerator2" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.353"/>
+  <testcase name="moderationApproveChiefEditor" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.385"/>
+  <testcase name="editPlaylistByaddContentOnPlaylist" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.638"/>
+  <testcase name="playlistSetActiveAfterEdit" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.422"/>
+  <testcase name="setActivePlaylistAfterEdit" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.32"/>
+  <testcase name="getPlaylistAfterEdit" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.541"/>
+  <testcase name="checkMediaplanAfterEditPlaylist" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.498"/>
+  <testcase name="clearMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.291"/>
+  <testcase name="checkMediaplanAfterClear" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.246"/>
+  <testcase name="deleteMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.217"/>
+  <testcase name="findDeletedMediaplan" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.199"/>
+  <testcase name="moderationContentDecline" classname="api.mediaplanandplaylist.MediaplanAndPlaylistTest" time="0.246"/>
+  <testcase name="checkGroundMediaplanGroup" classname="api.mediaplangroups.MediaplanGroupTest" time="0.983"/>
+  <testcase name="createGroundMediaplanGroup" classname="api.mediaplangroups.MediaplanGroupTest" time="0.269"/>
+  <testcase name="editGroundMediaplanGroup" classname="api.mediaplangroups.MediaplanGroupTest" time="0.241"/>
+  <testcase name="deleteMediaplanGroup" classname="api.mediaplangroups.MediaplanGroupTest" time="0.286"/>
+  <testcase name="checkTransportAttribute" classname="api.transport.TransportTest" time="0.201"/>
+  <testcase name="busTransportRoutes" classname="api.transportroutes.TransportRoutesTest" time="0.691"/>
+  <testcase name="metroTransportRoutes" classname="api.transportroutes.TransportRoutesTest" time="0.437"/>
+  <testcase name="trammTransportRoutes" classname="api.transportroutes.TransportRoutesTest" time="0.398"/>
+  <testcase name="trollTransportRoutes" classname="api.transportroutes.TransportRoutesTest" time="0.287"/>
+  <testcase name="authAdministrator" classname="api.users.TestUsers" time="0.298"/>
+  <testcase name="getUserList" classname="api.users.TestUsers" time="0.406"/>
+  <testcase name="testGroundTransportStatistics" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="1.972"/>
+  <testcase name="testMetroStatistics" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="3.444"/>
+  <testcase name="testSettingsData" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="0.02"/>
+  <testcase name="testStationMonitors" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="2.326"/>
+  <testcase name="testStationaryMonitors" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="0.009"/>
+  <testcase name="testStatusStreamMM" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="0.015"/>
+  <testcase name="testTransportLocation" classname="innerApiForSchedule.InnerApiForSchedulerTest" time="0.01"/>
+</testsuite>

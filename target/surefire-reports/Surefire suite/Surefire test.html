@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>107/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 06 18:02:02 GMT+07:00 2023</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63481 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.addMediacomplexToGroup()'><b>addMediacomplexToGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authAdministrator()'><b>authAdministrator</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>12</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.users.TestUsers.authAdministrator()'><b>authAdministrator</b><br>Test class: api.users.TestUsers</td>
+<td></td>
+<td>0</td>
+<td>api.users.TestUsers@7a0e1b5e</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authBlockedUser()'><b>authBlockedUser</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authChiefEditor()'><b>authChiefEditor</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authEditor()'><b>authEditor</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authModerator1()'><b>authModerator1</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authModerator2()'><b>authModerator2</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authWrongLogin()'><b>authWrongLogin</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.authWrongPassword()'><b>authWrongPassword</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>0</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.transportroutes.TransportRoutesTest.busTransportRoutes()'><b>busTransportRoutes</b><br>Test class: api.transportroutes.TransportRoutesTest</td>
+<td></td>
+<td>0</td>
+<td>api.transportroutes.TransportRoutesTest@120f38e6</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkCreatedContentStream()'><b>checkCreatedContentStream</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.checkCreatedContentStreamAfterCreate()'><b>checkCreatedContentStreamAfterCreate</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.checkCreatedContentStreamAfterEdit()'><b>checkCreatedContentStreamAfterEdit</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.checkCreatedContentStringAfterCreate()'><b>checkCreatedContentStringAfterCreate</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.checkCreatedContentStringAfterEdit()'><b>checkCreatedContentStringAfterEdit</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.mediaplangroups.MediaplanGroupTest.checkGroundMediaplanGroup()'><b>checkGroundMediaplanGroup</b><br>Test class: api.mediaplangroups.MediaplanGroupTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplangroups.MediaplanGroupTest@2555fff0</td></tr>
+<tr>
+<td title='api.hashtag.HashTagTest.checkHashTags()'><b>checkHashTags</b><br>Test class: api.hashtag.HashTagTest</td>
+<td></td>
+<td>0</td>
+<td>api.hashtag.HashTagTest@2ad3a1bb</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.checkMediaCenterGroups()'><b>checkMediaCenterGroups</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkMediaplanAfterClear()'><b>checkMediaplanAfterClear</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.checkMediaplanAfterEditPlaylist()'><b>checkMediaplanAfterEditPlaylist</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.checkMonitorResolution()'><b>checkMonitorResolution</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.transport.TransportTest.checkTransportAttribute()'><b>checkTransportAttribute</b><br>Test class: api.transport.TransportTest</td>
+<td></td>
+<td>0</td>
+<td>api.transport.TransportTest@70d2e40b</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.clearMediaplan()'><b>clearMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.createContentStream()'><b>createContentStream</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.createContentString()'><b>createContentString</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.mediaplangroups.MediaplanGroupTest.createGroundMediaplanGroup()'><b>createGroundMediaplanGroup</b><br>Test class: api.mediaplangroups.MediaplanGroupTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplangroups.MediaplanGroupTest@2555fff0</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.createMediaCenterGroup()'><b>createMediaCenterGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.createMediaplan()'><b>createMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.createMobileMCForAdd()'><b>createMobileMCForAdd</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.createPlaylist()'><b>createPlaylist</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.createStreamContent()'><b>createStreamContent</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.deleteMediacenterGroup()'><b>deleteMediacenterGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.deleteMediacomplexFromGroup()'><b>deleteMediacomplexFromGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.deleteMediaplan()'><b>deleteMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplangroups.MediaplanGroupTest.deleteMediaplanGroup()'><b>deleteMediaplanGroup</b><br>Test class: api.mediaplangroups.MediaplanGroupTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplangroups.MediaplanGroupTest@2555fff0</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.editContentStream()'><b>editContentStream</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.editContentString()'><b>editContentString</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.mediaplangroups.MediaplanGroupTest.editGroundMediaplanGroup()'><b>editGroundMediaplanGroup</b><br>Test class: api.mediaplangroups.MediaplanGroupTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplangroups.MediaplanGroupTest@2555fff0</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.editMediaplan()'><b>editMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.editPlaylistByaddContentOnPlaylist()'><b>editPlaylistByaddContentOnPlaylist</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.errorCreateMediaCenterGroup()'><b>errorCreateMediaCenterGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.findCreateMobileMediacomplex()'><b>findCreateMobileMediacomplex</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.findCreatedMediaplan()'><b>findCreatedMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.findDeletedMediaplan()'><b>findDeletedMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.findEditedMediaplan()'><b>findEditedMediaplan</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.findMediacomplexAfterAddToGroup()'><b>findMediacomplexAfterAddToGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.findMediacomplexAfterDeleteFromGroup()'><b>findMediacomplexAfterDeleteFromGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.geozone.GeoZonesTest.getGeoZones()'><b>getGeoZones</b><br>Test class: api.geozone.GeoZonesTest</td>
+<td></td>
+<td>0</td>
+<td>api.geozone.GeoZonesTest@4fbdc0f0</td></tr>
+<tr>
+<td title='api.geozone.GeoZonesTest.getGeoZonesById()'><b>getGeoZonesById</b><br>Test class: api.geozone.GeoZonesTest</td>
+<td></td>
+<td>1</td>
+<td>api.geozone.GeoZonesTest@4fbdc0f0</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.getPlaylist()'><b>getPlaylist</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.getPlaylistAfterEdit()'><b>getPlaylistAfterEdit</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.users.TestUsers.getUserList()'><b>getUserList</b><br>Test class: api.users.TestUsers</td>
+<td></td>
+<td>0</td>
+<td>api.users.TestUsers@7a0e1b5e</td></tr>
+<tr>
+<td title='api.authorisation.AuthTest.logout()'><b>logout</b><br>Test class: api.authorisation.AuthTest</td>
+<td></td>
+<td>2</td>
+<td>api.authorisation.AuthTest@41200e0c</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.mediaComplexList()'><b>mediaComplexList</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>3</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.transportroutes.TransportRoutesTest.metroTransportRoutes()'><b>metroTransportRoutes</b><br>Test class: api.transportroutes.TransportRoutesTest</td>
+<td></td>
+<td>0</td>
+<td>api.transportroutes.TransportRoutesTest@120f38e6</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveChiefEditor()'><b>moderationApproveChiefEditor</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveEditor()'><b>moderationApproveEditor</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationApproveEditorAfterCreateStream()'><b>moderationApproveEditorAfterCreateStream</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationApproveEditorAfterCreateString()'><b>moderationApproveEditorAfterCreateString</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveModerator1()'><b>moderationApproveModerator1</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationApproveModerator2()'><b>moderationApproveModerator2</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.moderationContentDecline()'><b>moderationContentDecline</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStreamApproveChiefEditor()'><b>moderationStreamApproveChiefEditor</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStreamApproveModerator1()'><b>moderationStreamApproveModerator1</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStreamApproveModerator2()'><b>moderationStreamApproveModerator2</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStreamDecline()'><b>moderationStreamDecline</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStringApproveChiefEditor()'><b>moderationStringApproveChiefEditor</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStringApproveModerator1()'><b>moderationStringApproveModerator1</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStringApproveModerator2()'><b>moderationStringApproveModerator2</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationStringDecline()'><b>moderationStringDecline</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationTabsForString()'><b>moderationTabsForString</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.content2.ContentAndModerationTest.moderationTabsForVideoAndStream()'><b>moderationTabsForVideoAndStream</b><br>Test class: api.content2.ContentAndModerationTest</td>
+<td></td>
+<td>0</td>
+<td>api.content2.ContentAndModerationTest@40f33492</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.playlistSetActive()'><b>playlistSetActive</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.playlistSetActiveAfterEdit()'><b>playlistSetActiveAfterEdit</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.setActivePlaylist()'><b>setActivePlaylist</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediaplanandplaylist.MediaplanAndPlaylistTest.setActivePlaylistAfterEdit()'><b>setActivePlaylistAfterEdit</b><br>Test class: api.mediaplanandplaylist.MediaplanAndPlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediaplanandplaylist.MediaplanAndPlaylistTest@aec50a1</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testCreateGroundMC()'><b>testCreateGroundMC</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testCreateMetroMC()'><b>testCreateMetroMC</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.testCreateMobileMC()'><b>testCreateMobileMC</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testDeleteGroundMediacomplex()'><b>testDeleteGroundMediacomplex</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.testDeleteMediacomplex()'><b>testDeleteMediacomplex</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.testDeleteMediacomplex()'><b>testDeleteMediacomplex</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testDeleteMetroMediacomplex()'><b>testDeleteMetroMediacomplex</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testEditGroundMC()'><b>testEditGroundMC</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testEditMetroMC()'><b>testEditMetroMC</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.testEditMobileMC()'><b>testEditMobileMC</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testFindCreatedGroundMC()'><b>testFindCreatedGroundMC</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testFindCreatedMetroMC()'><b>testFindCreatedMetroMC</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testFindEditedGroundMC()'><b>testFindEditedGroundMC</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.GroundMediacentersTest.testFindGroundMCAfterDelete()'><b>testFindGroundMCAfterDelete</b><br>Test class: api.mediacenters.GroundMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.GroundMediacentersTest@324c64cd</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.testFindMediacomplexAfterDelete()'><b>testFindMediacomplexAfterDelete</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.testFindMediacomplexAfterDelete()'><b>testFindMediacomplexAfterDelete</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.mediacenters.MobileMediacentersTest.testFindMediacomplexAfterEdit()'><b>testFindMediacomplexAfterEdit</b><br>Test class: api.mediacenters.MobileMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MobileMediacentersTest@24be2d9c</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testFindMetroMCAfterDelete()'><b>testFindMetroMCAfterDelete</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='api.mediacenters.MetroMediacentersTest.testFindMetroMCAfterEdit()'><b>testFindMetroMCAfterEdit</b><br>Test class: api.mediacenters.MetroMediacentersTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacenters.MetroMediacentersTest@13579834</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testGroundTransportStatistics()'><b>testGroundTransportStatistics</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>1</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testMetroStatistics()'><b>testMetroStatistics</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>1</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testSettingsData()'><b>testSettingsData</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>2</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testStationMonitors()'><b>testStationMonitors</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>0</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testStationaryMonitors()'><b>testStationaryMonitors</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>0</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testStatusStreamMM()'><b>testStatusStreamMM</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>0</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='innerApiForSchedule.InnerApiForSchedulerTest.testTransportLocation()'><b>testTransportLocation</b><br>Test class: innerApiForSchedule.InnerApiForSchedulerTest</td>
+<td></td>
+<td>0</td>
+<td>innerApiForSchedule.InnerApiForSchedulerTest@702ed190</td></tr>
+<tr>
+<td title='api.transportroutes.TransportRoutesTest.trammTransportRoutes()'><b>trammTransportRoutes</b><br>Test class: api.transportroutes.TransportRoutesTest</td>
+<td></td>
+<td>0</td>
+<td>api.transportroutes.TransportRoutesTest@120f38e6</td></tr>
+<tr>
+<td title='api.transportroutes.TransportRoutesTest.trollTransportRoutes()'><b>trollTransportRoutes</b><br>Test class: api.transportroutes.TransportRoutesTest</td>
+<td></td>
+<td>0</td>
+<td>api.transportroutes.TransportRoutesTest@120f38e6</td></tr>
+<tr>
+<td title='api.mediacentersgroup.MediaCenterGroupsTest.updateMediaCenterGroup()'><b>updateMediaCenterGroup</b><br>Test class: api.mediacentersgroup.MediaCenterGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>api.mediacentersgroup.MediaCenterGroupsTest@5bd73d1a</td></tr>
+<tr>
+<td title='api.logs.LogsTest.userLogsList()'><b>userLogsList</b><br>Test class: api.logs.LogsTest</td>
+<td></td>
+<td>0</td>
+<td>api.logs.LogsTest@6bc28a83</td></tr>
+</table><p>
+</body>
+</html>
